@@ -1,0 +1,115 @@
+
+  .videobg{
+    position: fixed;
+    z-index: -1;
+   
+  }
+/*
+  nav a {
+    margin: 15px;
+  }
+  
+  .activeLink{
+    color: lightyellow;
+    text-decoration: none;
+  }
+  .fruitsLink{
+    font-size: 25px;
+    text-decoration: none;
+  }
+  
+  .fruitsLink:hover{
+    text-decoration: underline;
+  }
+  h1 {
+    text-align: center;
+    color: #fff;
+  }
+  h1::selection {
+    background: black;
+  } 
+    /* display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: start;
+    align-items: center;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(
+      115deg,
+      rgba(147, 98, 48, 0.8),
+      rgba(205, 176, 185, 0.7)
+    ); 
+  } 
+    /* .blockNavGroceryStore{
+    width: 250px;
+    height: 100vh;
+    border-right: 3px solid rgb(64, 33, 2);
+    display: grid;
+    grid-template-columns: auto ;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    background-color: rgba(126, 94, 61, 0.8);
+   top: 0;
+    left: -100%;
+    transition: 850ms; 
+  }  */
+
+  /* .blockNavGroceryStore.active{
+    left:0;
+    transition: 350ms;
+  } */
+a{
+  text-decoration: none;
+}
+
+  .sidebar-gs{
+    background: rgb(0,7,61);
+    color: white;
+    height: 100vh;
+  }
+
+  .routes {
+    color: white;
+  }
+
+  .top_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+  }
+
+  .logo-gs {
+    font-size: 24px;
+    line-height: 0;
+  }
+  .search-gs{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    height:  30px;
+    padding: 10px;
+  }
+  .search-gs input{
+      border: none;
+      width: 160px;
+      margin-left: 10px;
+      border-radius: 5px;
+      background-color: whitesmoke;
+      padding: 5px 10px;
+  }
+  .link{
+    display: flex;
+    color: whitesmoke;
+    gap: 10px;
+    padding: 5px 10px;
+    transition: 0.2s cubic-bezier(0.6,-0.28,0.735,0.045);
+
+  }
+  .link:hover{
+    border-right: 4px solid whitesmoke;
+    transition: 0.2s cubic-bezier(0.6,-0.28,0.735,0.045);
+    background: rgb(45,51,89);
+  }
